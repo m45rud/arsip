@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /
+
+# Disallow directories
+Disallow: /application/
+Disallow: /system/
+
+# Disallow paths
+Disallow: /

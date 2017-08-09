@@ -1,0 +1,335 @@
+/* ----- Navbar ----- */
+nav.navbar {
+  border: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.brand-logo {
+  float: left;
+  height: 40px;
+  margin: -.6em .75em 0 0;
+  width: 40px;
+}
+
+/* ----- Alert ----- */
+#notif {
+  border: none;
+  border-radius: 0;
+  bottom: 0;
+  color: #fff;
+  display: none;
+  left: 0;
+  margin-bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 9999999999;
+}
+
+.alert-success {
+  background: #4caf50;
+}
+
+.alert-error {
+  background: #f44336;
+}
+
+#success,
+#failed {
+  color: #fff !important;
+  display: none;
+}
+
+/* ----- Index Page ----- */
+.bg {
+  background: #f5f5f5;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper {
+  margin: 1% auto;
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.logo img {
+  height: auto;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+input.search {
+  width: 540px !important;
+}
+
+p.help {
+  margin-top: 2em;
+}
+
+/* ----- Home ----- */
+.header-wrapper {
+  display: block;
+  margin-top: -2em;
+  padding: .75em 0 1.3em;
+  width: 100%;
+}
+
+.header-result {
+  float: left;
+  margin-right: 1em;
+  width: 220px;
+}
+
+.header-result img {
+  float: left;
+  height: 45px;
+  margin: 0 1em .5em 0;
+  width: 45px;
+}
+
+#hint {
+  margin-top: 2em;
+}
+
+.err_notif {
+  margin-top: 4em !important;
+}
+
+.err_notif span {
+  line-height: 1em;
+}
+
+.left-text {
+  text-align: left!important;
+}
+
+.title {
+  margin: 1em 0;
+}
+
+.foto {
+  height: 240px;
+  margin: 1em 0;
+  width: 180px;
+}
+
+/* ----- Login Form ----- */
+.back {
+  margin-top: 1.5em;
+}
+
+.md {
+  height: 45px;
+  padding: 14px 16px;
+  font-size: 1em;
+}
+
+.btn.md,
+.input-group-addon.md {
+  padding: 10px 16px;
+  font-size: 16px;
+}
+
+.sh {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#pass {
+  background: #bdbdbd;
+  border: 1px solid #bdbdbd;
+  outline: none;
+}
+
+/* ----- Dashboard ----- */
+.col-sm-4 .panel-footer {
+  font-weight: 500;
+  font-size: 120%
+}
+
+.green {
+  background: #7cb342;
+  color: #fff;
+}
+
+.yellow {
+  background: #F9A825;
+  color: #fff;
+}
+
+.red {
+  background: #FF5722;
+  color: #fff;
+}
+
+.blue {
+  background: #29b6f6;
+  color: #fff;
+}
+
+.indigo {
+  background: #536dfe;
+  color: #fff;
+}
+
+h1.ttl {
+  font-size: 400%;
+}
+
+h1.total {
+  font-size: 550%
+}
+
+/* ----- Student ----- */
+.table-responsive {
+  margin-top: 2em;
+}
+
+.add {
+  margin-left: .75em;
+}
+
+.mb {
+  margin-bottom: .5em;
+}
+
+.foto {
+  float: left;
+  height: 240px;
+  width: 180px;
+}
+
+.siswa tbody > tr >td {
+  border-top: 0 !important;
+}
+
+.print {
+  margin-top: 1.5em;
+}
+
+.pku {
+  color: #ff9800!important;
+}
+
+.pbe {
+  color: #ff0000!important;
+}
+
+/* ----- Report ----- */
+.gt {
+  font-size: 16px;
+}
+
+/* ----- Student ----- */
+table thead {
+  background: #f5f5f5;
+}
+
+#student,
+#major,
+#user,
+#student-deleted,
+#major-deleted,
+#user-deleted {
+  margin-top: 1em;
+}
+
+#student_processing,
+#major_processing,
+#user_processing,
+#student-deleted_processing,
+#major-deleted_processing,
+#user-deleted_processing,
+#student-archived_processing  {
+  background: #c8e6c9;
+}
+
+/* ----- Footer ----- */
+.footer {
+  color: #9e9e9e !important;
+  font-size: 13px;
+  margin-bottom: 0 !important;
+  padding-top: 4em;
+  text-align: center;
+}
+
+.footer a {
+  border-bottom: 1px dotted #bdbdbd;
+  color: #9e9e9e !important;
+}
+
+.footer a:hover {
+  border-bottom: 2px solid #757575;
+  text-decoration: none;
+}
+
+/* ----- Responsive ----- */
+  @media all and (max-width: 768px) {
+  input.search {
+    width: 100% !important;
+  }
+
+  .form-control {
+    margin-bottom: .5em;
+  }
+
+  .full {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media print {
+  body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+  }
+
+  .hp,
+  footer {
+    display: none;
+  }
+
+  .btn {
+    background: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 0!important;
+  }
+
+  .kurang {
+    color: #ff9800!important;
+  }
+
+  .belum {
+    color: #ff0000!important;
+  }
+
+  .print {
+    margin-top: 50px;
+  }
+
+  .foto {
+    margin-top: 12px;
+  }
+
+  #foto,
+  #data {
+    float: left;
+  }
+}
