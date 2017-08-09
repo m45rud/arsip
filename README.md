@@ -23,6 +23,7 @@ Arsip Digital Siswa (ARDIS) adalah aplikasi sederhana untuk mengelola data admin
 - Notifikasi error input berbahsa Indonesia
 - Reset password oleh admin (password default setelah reset: mberu3)
 - Ubah nama dan password
+- Responsif
 
 ## ARDOS
 Arsip Dokumen Siswa (ARDOS) adalah aplikasi sederhana untuk mengelola arsip / penempatan lokasi dokumen data siswa. Dilengkapi dengan beberapa fitur, antara lain:
@@ -44,6 +45,7 @@ Arsip Dokumen Siswa (ARDOS) adalah aplikasi sederhana untuk mengelola arsip / pe
 - Ajax search pada homepage
 - Fitur search, filter, pagging dan show perpage pada halaman list data
 - Notifikasi error input berbahsa Indonesia
+- Responsif
 
 Kedua Aplikasi ini dibuat menggunakan CodeIgniter versi 3.1.5, bootstrap, jquery datatables serta menggunakan environtment php 7.
 
