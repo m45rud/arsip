@@ -3,6 +3,7 @@
 Aplikasi ini terdiri dari 2 bagian ARDIS dan ARDOS.
 
 ##ARDIS
+
 Arsip Digital Siswa (ARDIS) adalah aplikasi sederhana untuk mengelola data administrasi siswa secara digital. Dilengkapi dengan beberapa fitur, antara lain:
 
 - Import data siswa (format *.CSV)
@@ -25,6 +26,7 @@ Arsip Digital Siswa (ARDIS) adalah aplikasi sederhana untuk mengelola data admin
 - Ubah nama dan password
 
 ##ARDOS
+
 Arsip Dokumen Siswa (ARDOS) adalah aplikasi sederhana untuk mengelola arsip / penempatan lokasi dokumen data siswa. Dilengkapi dengan beberapa fitur, antara lain:
 
 - Menggunakan database yang sama dengan ARDIS
@@ -48,6 +50,7 @@ Arsip Dokumen Siswa (ARDOS) adalah aplikasi sederhana untuk mengelola arsip / pe
 Kedua Aplikasi ini dibuat menggunakan CodeIgniter versi 3.1.5, bootstrap, jquery datatables serta menggunakan environtment php 7.
 
 ###Konfigurasi
+
 Untuk menggunakan kedua aplikasi ini, silakan setting databasenya terlebih dahulu.
 Silakan buka folder **application** -> **config** lalu ubah file **database.php** dan sesuaikan nama hostname, username, password serta database dengan yang Anda gunakan.
 
@@ -55,5 +58,4 @@ Silakan buka folder **application** -> **config** lalu ubah file **database.php*
 - <a href="https://ardis.smkmuh3nganjuk.sch.id/">https://ardis.smkmuh3nganjuk.sch.id/</a>
 - <a href="https://ardos.smkmuh3nganjuk.sch.id/">https://ardos.smkmuh3nganjuk.sch.id/</a>
 
-- Username  : admin
-- Password  : admin
+Username dan password : admin
