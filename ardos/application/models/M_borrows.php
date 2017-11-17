@@ -19,7 +19,7 @@ class M_borrows extends CI_Model {
 					->db
 					->select('*')
 					->from(self::$table)
-					->join('students', 'students.s_id = documents.d_sid')
+					->join('students', 'students.s_id = documents.d_sid', 'left')
 					->where($wbri)
 					->get();
 
@@ -36,7 +36,7 @@ class M_borrows extends CI_Model {
 					->db
 					->select('*')
 					->from(self::$table)
-					->join('students', 'students.s_id = documents.d_sid')
+					->join('students', 'students.s_id = documents.d_sid', 'left')
 					->where($wbrs)
 					->get();
 
