@@ -15,7 +15,7 @@ class M_homes extends CI_Model {
 					->db
 					->select('*')
 	                ->from(self::$table)
-					->join('majors', 'majors.m_id = students.s_mid')
+					->join('majors', 'majors.m_id = students.s_mid', 'left')
 	                ->like('s_nisn', $keyword)
 	                ->or_like('s_name', $keyword)
 					->or_like('s_dob', $keyword)
@@ -36,7 +36,7 @@ class M_homes extends CI_Model {
 					->db
 					->select('*')
 					->from(self::$table)
-					->join('majors', 'majors.m_id = students.s_mid')
+					->join('majors', 'majors.m_id = students.s_mid', 'left')
 					->where($where)
 					->get();
 

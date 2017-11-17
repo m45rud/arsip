@@ -21,7 +21,7 @@ class M_students extends CI_Model {
 					->db
 					->select('*')
 					->from(self::$table)
-					->join('majors', 'majors.m_id = students.s_mid')
+					->join('majors', 'majors.m_id = students.s_mid', 'left')
 					->where($where)
 					->get();
 
