@@ -38,7 +38,7 @@ class Student extends CI_Controller {
                     'db' => 's_id',
                     'dt' => 'tindakan',
                     'formatter' => function($s_id) {
-                        return '<a class="btn btn-warning btn-sm mb" href="'.site_url('student/print/'.$s_id).'" target="_blank" title="Cetak"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></a>
+                        return '<a class="btn btn-warning btn-sm mb" href="'.site_url('student/print_data/'.$s_id).'" target="_blank" title="Cetak"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></a>
                         <a class="btn btn-success btn-sm mb" href="'.site_url('student/view/'.$s_id).'">Lihat</a>
                         <a class="btn btn-info btn-sm mb" href="'.site_url('student/edit/'.$s_id).'">Ubah</a>
                         <a class="btn btn-danger btn-sm mb" onclick="return confirmDialog();" href="'.site_url('student/delete/'.$s_id).'" title="Hapus"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a><a class="btn btn-default btn-sm mb" href="'.site_url('student/status/'.$s_id).'" onclick="return confirmDialogStatus();">Ubah Status</a>';
@@ -446,7 +446,7 @@ class Student extends CI_Controller {
         }
     }
 
-    public function print()
+    public function print_data()
     {
         $s_id = $this->uri->segment(3);
 

@@ -53,7 +53,7 @@ if(!empty($result)) {
 							<td>'.$s_is_active.'</td>
 							<td>
 								<a href="'.site_url('home/view/'.$row->s_id).'"" class="btn btn-info btn-sm mb" target="_blank">Lihat Detail</a>
-								<a href="'.site_url('home/print/'.$row->s_id).'" class="btn btn-danger btn-sm mb" target="_blank"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Cetak</a>
+								<a href="'.site_url('home/print_data/'.$row->s_id).'" class="btn btn-danger btn-sm mb" target="_blank"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Cetak</a>
 							</td>
 						</tr>';
 			 	}

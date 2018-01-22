@@ -49,7 +49,7 @@ class Home extends CI_Controller {
         }
     }
 
-    public function print($s_id)
+    public function print_data()
     {
         $s_id = $this->uri->segment(3);
         $data['student'] = $this->m_homes->get_data($s_id);
