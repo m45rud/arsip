@@ -59,4 +59,6 @@ Silakan buka folder **application** -> **config** lalu ubah file **database.php*
 
 Username dan password : **admin**
 
+---
+
 Ini adalah source code dari artikel https://masrud.com/post/aplikasi-arsip-digital-php-codeigniter
