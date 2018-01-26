@@ -57,4 +57,6 @@ Silakan buka folder **application** -> **config** lalu ubah file **database.php*
 - <a href="https://ardis.smkmuh3nganjuk.sch.id/">https://ardis.smkmuh3nganjuk.sch.id/</a>
 - <a href="https://ardos.smkmuh3nganjuk.sch.id/">https://ardos.smkmuh3nganjuk.sch.id/</a>
 
-Username dan password : admin
+Username dan password : **admin**
+
+Ini adalah source code dari artikel https://masrud.com/post/aplikasi-arsip-digital-php-codeigniter
