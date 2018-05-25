@@ -110,7 +110,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_foto)) {
                     $config['upload_path'] = './uploads/foto/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '1024';
                     $config['overwrite'] = TRUE;
@@ -124,7 +124,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_kk)) {
                     $config['upload_path'] = './uploads/kk/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -138,7 +138,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_ktpa)) {
                     $config['upload_path'] = './uploads/ktpa/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -152,7 +152,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_ktpi)) {
                     $config['upload_path'] = './uploads/ktpi/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -166,7 +166,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_kips)) {
                     $config['upload_path'] = './uploads/kips/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -180,7 +180,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_sktm)) {
                     $config['upload_path'] = './uploads/sktm/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -194,7 +194,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_ijazah)) {
                     $config['upload_path'] = './uploads/ijazah/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -208,7 +208,7 @@ class Student extends CI_Controller {
 
                 if (!empty($s_skhun)) {
                     $config['upload_path'] = './uploads/skhun/';
-                    $config['allowed_types'] = 'jpg|png';
+                    $config['allowed_types'] = 'jpg|jpeg|png';
                     $config['file_ext_tolower'] = TRUE;
                     $config['max_size'] = '2048';
                     $config['overwrite'] = TRUE;
@@ -504,7 +504,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_foto)) {
                 $config['upload_path'] = './uploads/foto/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '1024';
                 $config['overwrite'] = TRUE;
@@ -518,7 +518,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_kk)) {
                 $config['upload_path'] = './uploads/kk/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
@@ -532,7 +532,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_ktpa)) {
                 $config['upload_path'] = './uploads/ktpa/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
@@ -546,7 +546,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_ktpi)) {
                 $config['upload_path'] = './uploads/ktpi/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
@@ -560,7 +560,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_kips)) {
                 $config['upload_path'] = './uploads/kips/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
@@ -574,7 +574,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_sktm)) {
                 $config['upload_path'] = './uploads/sktm/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
@@ -588,7 +588,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_ijazah)) {
                 $config['upload_path'] = './uploads/ijazah/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
@@ -602,7 +602,7 @@ class Student extends CI_Controller {
 
             if (!empty($s_skhun)) {
                 $config['upload_path'] = './uploads/skhun/';
-                $config['allowed_types'] = 'jpg|png';
+                $config['allowed_types'] = 'jpg|jpeg|png';
                 $config['file_ext_tolower'] = TRUE;
                 $config['max_size'] = '2048';
                 $config['overwrite'] = TRUE;
