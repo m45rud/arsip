@@ -52,7 +52,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // Login
 $route['login'] = 'login';
-$route['login/(:any)'] = 'login/process';
 
 // Logout
 $route['logout'] = 'logout';
