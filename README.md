@@ -54,8 +54,8 @@ Untuk menggunakan kedua aplikasi ini, silakan setting databasenya terlebih dahul
 Silakan buka folder **application** -> **config** lalu ubah file **database.php** dan sesuaikan nama hostname, username, password serta database dengan yang Anda gunakan.
 
 **Link demo:**
-- <a href="https://ardis.smkmuh3nganjuk.sch.id/">https://ardis.smkmuh3nganjuk.sch.id/</a>
-- <a href="https://ardos.smkmuh3nganjuk.sch.id/">https://ardos.smkmuh3nganjuk.sch.id/</a>
+- <a href="https://lab.masrud.com/ardis/">https://lab.masrud.com/ardis/</a>
+- <a href="https://lab.masrud.com/ardos/">https://lab.masrud.com/ardos/</a>
 
 Username dan password : **admin**
 
