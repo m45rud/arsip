@@ -21,7 +21,7 @@
                 <li><a href="<?=site_url('document')?>">Data Dokumen</a></li>
                 <li><a href="<?=site_url('cabinet')?>">Data Lemari</a></li>
                 <li><a href="<?=site_url('folder')?>">Data Bendel</a></li>
-                <li><a href="<?=site_url('document/empty')?>">Map Kosong</a></li>
+                <li><a href="<?=site_url('document/emptied')?>">Map Kosong</a></li>
                 <li><a href="<?=site_url('borrow')?>">Data Pinjam</a></li>
                 <li><a href="<?=site_url('document/archived')?>">Arsip Dokumen</a></li>
                 <li class="dropdown">

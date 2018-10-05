@@ -51,7 +51,7 @@ class Document extends CI_Controller {
                         <a class="btn btn-info btn-sm mb" href="'.site_url('document/edit/'.$d_id).'">Ubah</a>
                         <a class="btn btn-danger btn-sm mb" onclick="return confirmDialog();" href="'.site_url('document/delete/'.$d_id).'" title="Hapus"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
                         <a class="btn btn-warning btn-sm mb" href="'.site_url('document/borrow/'.$d_id).'">Pinjam</a>
-                        <a class="btn btn-success btn-sm mb" href="'.site_url('document/return/'.$d_id).'">Kembali</a>
+                        <a class="btn btn-success btn-sm mb" href="'.site_url('document/returned/'.$d_id).'">Kembali</a>
                         <a class="btn btn-info btn-sm mb" href="'.site_url('document/take/'.$d_id).'" onclick="return confirmDialogTake()">Ambil</a>';
                     }
                 ),
@@ -419,7 +419,7 @@ class Document extends CI_Controller {
         }
     }
 
-    public function print()
+    public function print_data()
     {
         $d_id = $this->uri->segment(3);
         $where = "d_id = '$d_id'";
@@ -561,7 +561,7 @@ class Document extends CI_Controller {
         redirect(site_url('document'));
     }
 
-    public function empty()
+    public function emptied()
     {
         $data['title'] = "Map Kosong &minus; Arsip Dokumen Dokumen | SMK Muhammadiyah 3 Nganjuk";
         $data['content'] = "dashboard/document-empty";
@@ -858,7 +858,7 @@ class Document extends CI_Controller {
         redirect(site_url('document'));
     }
 
-    public function return()
+    public function returned()
     {
         $d_id = $this->uri->segment(3);
         if (!$d_id) {
