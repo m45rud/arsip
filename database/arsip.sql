@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 19, 2018 at 10:50 AM
+-- Generation Time: Oct 19, 2018 at 11:16 AM
 -- Server version: 5.7.23-0ubuntu0.16.04.1
 -- PHP Version: 7.0.32-2+ubuntu16.04.1+deb.sury.org+1
 
@@ -136,7 +136,8 @@ CREATE TABLE `ci_sessions` (
 INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('d95b7d1bd46e9dcc62e425996163657c0635ca12', '127.0.0.1', 1502238452, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530323233383435323b),
 ('7sjmfe25sl5br1j8tudkncgabt404sft', '::1', 1539743388, 0x5f5f63695f6c6173745f726567656e65726174657c693a313533393734333338383b),
-('uiu3mtcfsolt6arp9j4784vaia3eg52h', '::1', 1539921045, 0x5f5f63695f6c6173745f726567656e65726174657c693a313533393932313034353b);
+('uiu3mtcfsolt6arp9j4784vaia3eg52h', '::1', 1539921045, 0x5f5f63695f6c6173745f726567656e65726174657c693a313533393932313034353b),
+('q11f99ogvgr3ufqfffhmcur4aris7pr7', '::1', 1539922072, 0x5f5f63695f6c6173745f726567656e65726174657c693a313533393932313931333b755f69647c733a353a227842336747223b755f6e616d657c733a363a226d6173727564223b755f666e616d657c733a31313a224d2e2052756469616e746f223b755f6c6576656c7c733a31333a2241646d696e6973747261746f72223b69735f6c6f676765645f696e7c623a313b);
 
 -- --------------------------------------------------------
 
@@ -306,6 +307,7 @@ INSERT INTO `students` (`s_id`, `s_nisn`, `s_name`, `s_dob`, `s_gender`, `s_grad
 ('rpfS1dqW3k', '7878678', 'Bayu M', '2017-12-31', 'Laki-laki', 'X', 'TKR', 2015, 2017, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Belum Ada Data', '2017-07-22 02:28:45', '2017-07-25 14:45:21', NULL, NULL, 'xB3gG', 'xB3gG', NULL, NULL, 'FALSE', 'Aktif'),
 ('ULar8fQteY', '984657834', 'ayu', '2016-12-30', 'Perempuan', 'XII', 'TKR', 2015, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Kurang', '2017-07-25 14:36:16', '2017-07-25 14:36:16', NULL, NULL, 'xB3gG', NULL, NULL, NULL, 'FALSE', 'Aktif'),
 ('Z0GoCqfwKv', '96783468', 'binti', '2017-12-30', 'Perempuan', 'X', 'TKR', 2015, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Belum Ada Data', '2017-07-25 14:35:20', '2017-07-25 14:35:20', NULL, NULL, 'xB3gG', NULL, NULL, NULL, 'FALSE', 'Aktif'),
+('z9LlPBoERx', '9999999', '99999999999999', '2018-12-31', 'Laki-laki', 'X', 'TKR', 2016, NULL, 'z9LlPBoERx-foto.png', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Belum Ada Data', '2018-10-19 04:06:58', '2018-10-19 04:07:49', NULL, NULL, 'xB3gG', 'xB3gG', NULL, NULL, 'FALSE', 'Aktif'),
 ('ZTjlA4CsXW', '6556456', 'budi', '2017-12-31', 'Laki-laki', 'X', 'TKR', 2015, 2017, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Belum Ada Data', '2017-07-22 05:32:08', '2017-07-25 14:31:39', NULL, NULL, 'xB3gG', 'xB3gG', NULL, NULL, 'FALSE', 'Aktif');
 
 -- --------------------------------------------------------
@@ -335,7 +337,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `u_name`, `u_pass`, `u_fname`, `u_level`, `u_created_at`, `u_updated_at`, `u_created_by`, `u_updated_by`, `u_password_updated_at`, `u_last_logged_in`, `u_ip_address`, `u_is_active`) VALUES
-('xB3gG', 'masrud', '$2y$05$IGbnUMu1oMarpWy3L11qaObFtfCnQHKRoQMTmhQh8cgo5emfMHPcq', 'M. Rudianto', 'Administrator', '2017-06-24 11:45:40', '2018-10-19 03:50:41', NULL, 'WKk81', '2018-10-19 03:48:06', '2018-10-19 03:50:41', '::1', 'Aktif');
+('xB3gG', 'masrud', '$2y$10$WAmcbJTVnxhrlz.dYS453e.8esn1WRrEK/ilgjMgh./5jyD0M4Fua', 'M. Rudianto', 'Administrator', '2017-06-24 11:45:40', '2018-10-19 04:14:49', NULL, 'WKk81', '2018-10-19 03:48:06', '2018-10-19 04:05:26', '::1', 'Aktif');
 
 --
 -- Indexes for dumped tables
