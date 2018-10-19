@@ -147,7 +147,7 @@ class User extends CI_Controller {
         }
 
         $data = [
-			'u_pass' => password_hash("mberu3", PASSWORD_DEFAULT, ['cost' => 5]),
+			'u_pass' => password_hash("masrud.com", PASSWORD_DEFAULT, ['cost' => 5]),
 			'u_updated_at' => date('Y-m-d H:i:s'),
 			'u_updated_by' => $this->session->userdata['u_id'],
 			'u_password_updated_at' => date('Y-m-d H:i:s')
@@ -172,7 +172,7 @@ class User extends CI_Controller {
     			'u_updated_at' => date('Y-m-d H:i:s'),
     			'u_password_updated_at' => date('Y-m-d H:i:s')
     		];
-            
+
             $this->m_users->update($data, $u_id);
             $this->session->set_flashdata('alert', success('Data profile berhasil diperbarui.'));
             $this->session->set_flashdata('logout', '<script>setTimeout(function(){window.location.href="'.site_url('logout').'"}, 5000);</script>');
