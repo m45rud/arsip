@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.4.1deb2ubuntu2
+-- version 4.5.4.1deb2ubuntu2.1
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 09, 2017 at 07:27 AM
--- Server version: 5.7.19-0ubuntu0.16.04.1
--- PHP Version: 7.0.18-0ubuntu0.16.04.1
+-- Generation Time: Oct 19, 2018 at 10:50 AM
+-- Server version: 5.7.23-0ubuntu0.16.04.1
+-- PHP Version: 7.0.32-2+ubuntu16.04.1+deb.sury.org+1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `arsip`
+-- Database: `arsip_ardios`
 --
 
 -- --------------------------------------------------------
@@ -134,7 +134,9 @@ CREATE TABLE `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
-('d95b7d1bd46e9dcc62e425996163657c0635ca12', '127.0.0.1', 1502238452, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530323233383435323b);
+('d95b7d1bd46e9dcc62e425996163657c0635ca12', '127.0.0.1', 1502238452, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530323233383435323b),
+('7sjmfe25sl5br1j8tudkncgabt404sft', '::1', 1539743388, 0x5f5f63695f6c6173745f726567656e65726174657c693a313533393734333338383b),
+('uiu3mtcfsolt6arp9j4784vaia3eg52h', '::1', 1539921045, 0x5f5f63695f6c6173745f726567656e65726174657c693a313533393932313034353b);
 
 -- --------------------------------------------------------
 
@@ -333,7 +335,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `u_name`, `u_pass`, `u_fname`, `u_level`, `u_created_at`, `u_updated_at`, `u_created_by`, `u_updated_by`, `u_password_updated_at`, `u_last_logged_in`, `u_ip_address`, `u_is_active`) VALUES
-('xB3gG', 'admin', '$2y$05$hv7y7snsUMsOXDn2z9ga.uG25EVnfx5UDGR5qHP2MZctW9F2cySUu', 'M. Rudianto', 'Administrator', '2017-06-24 11:45:40', '2017-08-09 00:27:09', NULL, 'WKk81', '2017-08-09 00:25:28', '2017-08-09 00:27:09', '127.0.0.1', 'Aktif');
+('xB3gG', 'masrud', '$2y$05$IGbnUMu1oMarpWy3L11qaObFtfCnQHKRoQMTmhQh8cgo5emfMHPcq', 'M. Rudianto', 'Administrator', '2017-06-24 11:45:40', '2018-10-19 03:50:41', NULL, 'WKk81', '2018-10-19 03:48:06', '2018-10-19 03:50:41', '::1', 'Aktif');
 
 --
 -- Indexes for dumped tables
