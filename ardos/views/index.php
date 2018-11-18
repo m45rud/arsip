@@ -1,5 +1,16 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<!--
 
+Name        : Aplikasi Arsip Dokumen Siswa
+Version     : v1.0
+Description : Aplikasi untuk mengarsipkan data dokumen siswa secara digital.
+Date        : 2017
+Developer   : M. Rudianto
+Phone/WA    : 0852-3290-4156
+Email       : rudi@masrud.com
+Website     : https://masrud.com
+
+-->
 <!doctype html>
 <html lang="id">
     <head>

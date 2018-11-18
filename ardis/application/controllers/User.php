@@ -79,7 +79,7 @@ class User extends CI_Controller {
         		$data = [
         			'u_id' => random_string('alnum', 5),
         	        'u_name' => $this->input->post('u_name', TRUE),
-        	        'u_pass' => password_hash($this->input->post('u_pass', TRUE), PASSWORD_DEFAULT, ['cost' => 5]),
+        	        'u_pass' => password_hash($this->input->post('u_pass', TRUE), PASSWORD_DEFAULT, ['cost' => 10]),
         			'u_fname' => $this->input->post('u_fname', TRUE),
         			'u_level' => $this->input->post('u_level', TRUE),
         			'u_is_active' => $this->input->post('u_is_active', TRUE),
@@ -147,7 +147,7 @@ class User extends CI_Controller {
         }
 
         $data = [
-			'u_pass' => password_hash("masrud.com", PASSWORD_DEFAULT, ['cost' => 5]),
+			'u_pass' => password_hash("masrud.com", PASSWORD_DEFAULT, ['cost' => 10]),
 			'u_updated_at' => date('Y-m-d H:i:s'),
 			'u_updated_by' => $this->session->userdata['u_id'],
 			'u_password_updated_at' => date('Y-m-d H:i:s')
