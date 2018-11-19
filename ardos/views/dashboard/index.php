@@ -2,7 +2,7 @@
 <!--
 
 Name        : Aplikasi Arsip Dokumen Siswa
-Version     : v1.0
+Version     : v1.0.0
 Description : Aplikasi untuk mengarsipkan data dokumen siswa secara digital.
 Date        : 2017
 Developer   : M. Rudianto
