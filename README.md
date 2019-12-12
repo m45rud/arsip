@@ -54,8 +54,7 @@ Untuk menggunakan kedua aplikasi ini, silakan setting databasenya terlebih dahul
 Silakan buka folder **application** -> **config** lalu ubah file **database.php** dan sesuaikan nama hostname, username, password serta database dengan yang Anda gunakan.
 
 **Link demo:**
-- <a href="https://lab.masrud.com/ardis/">https://app.masrud.com/ardis/</a>
-- <a href="https://lab.masrud.com/ardos/">https://app.masrud.com/ardos/</a>
+<a href="https://masrud.com/app/aplikasi-arsip-digital-siswa">https://masrud.com/app/aplikasi-arsip-digital-siswa</a>
 
 Username: **masrud**<br>
 Password: **masrud.com**
