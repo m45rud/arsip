@@ -53,12 +53,6 @@ Kedua Aplikasi ini dibuat menggunakan CodeIgniter versi 3.1.5, bootstrap, jquery
 Untuk menggunakan kedua aplikasi ini, silakan setting databasenya terlebih dahulu.
 Silakan buka folder **application** -> **config** lalu ubah file **database.php** dan sesuaikan nama hostname, username, password serta database dengan yang Anda gunakan.
 
-**Link demo:**
-<a href="https://masrud.com/app/aplikasi-arsip-digital-siswa">https://masrud.com/app/aplikasi-arsip-digital-siswa</a>
-
-Username: **masrud**<br>
-Password: **masrud.com**
-
 ---
 
 Ini adalah source code dari artikel https://masrud.com/post/aplikasi-arsip-digital-php-codeigniter
