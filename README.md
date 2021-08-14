@@ -55,4 +55,4 @@ Silakan buka folder **application** -> **config** lalu ubah file **database.php*
 
 ---
 
-Ini adalah source code dari artikel https://masrud.com/post/aplikasi-arsip-digital-php-codeigniter
+Ini adalah source code dari artikel https://masrud.com/aplikasi-arsip-digital-codeigniter/
